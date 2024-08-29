@@ -32,3 +32,22 @@ NOTE: I'm not sure why, but I can only run 1 app at a time, or the locator would
     - App.jsx
     - App.css
 6. ```npm run dev```
+
+# Svelt
+1. ```npm create svelte@latest demo-svelt-app```
+    - Select "Skeleton project"
+    - Choose "No" for TypeScript
+    - Don't select any additional options
+2. ```cd demo-svelt-app```
+3. ```npm install```
+4. Delete
+    - src/routes/about
+    - src/routes/sverdle
+    - src/routes/Counter.svelte
+    - src/routes/Header.svelte
+5. Edit
+    - src/app.html
+    - src/routes/+page.svelte
+    - src/routes/+layout.svelte
+    - src/app.css
+6. ```npm run dev```
