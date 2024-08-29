@@ -1,5 +1,7 @@
 # Ticket2
 
+NOTE: I'm not sure why, but I can only run 1 app at a time, or the locator wouldn't load
+
 # React
 
 ## Using create-react-app
