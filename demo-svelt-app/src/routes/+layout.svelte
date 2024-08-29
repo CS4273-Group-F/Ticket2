@@ -1,53 +1,38 @@
 <script>
-	import Header from './Header.svelte';
-	import '../app.css';
-</script>
-
-<div class="app">
-	<Header />
-
-	<main>
-		<slot />
-	</main>
-
-	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
-	</footer>
-</div>
-
-<style>
-	.app {
-		display: flex;
-		flex-direction: column;
-		min-height: 100vh;
+	import { onMount } from 'svelte';
+  
+	onMount(() => {
+	  // Ensure this script only runs once in the browser
+	  if (typeof window !== 'undefined') {
+		document.body.style.margin = '0';
+		document.body.style.padding = '0';
+	  }
+	});
+  </script>
+  
+  <header>
+	<h1>Demo Svelt App</h1>
+  </header>
+  
+  <main>
+	<slot />
+  </main>
+  
+  <style>
+	header {
+	  background-color: #ff3e00;
+	  color: white;
+	  padding: 1em;
+	  text-align: center;
 	}
-
+  
+	h1 {
+	  margin: 0;
+	  font-size: 1.5em;
+	}
+  
 	main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		padding: 1rem;
-		width: 100%;
-		max-width: 64rem;
-		margin: 0 auto;
-		box-sizing: border-box;
+	  padding: 1em;
 	}
-
-	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 12px;
-	}
-
-	footer a {
-		font-weight: bold;
-	}
-
-	@media (min-width: 480px) {
-		footer {
-			padding: 12px 0;
-		}
-	}
-</style>
+  </style>
+  
