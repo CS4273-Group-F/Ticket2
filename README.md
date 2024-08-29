@@ -11,7 +11,7 @@
     - logo.svg
     - reportWebVitals.js
     - setupTests.js
-4. Edit
+4. In src, Edit
     - index.html
     - App.js
     - index.js
@@ -24,9 +24,9 @@
 2. name the project, select a framework and a variant
 3. ```cd demo-app_vite```
 4. ```npm install```
-5. Edit
-- index.html
-- index.css
-- App.jsx
-- App.css
+5. In src, Edit
+    - index.html
+    - index.css
+    - App.jsx
+    - App.css
 6. ```npm run dev```
