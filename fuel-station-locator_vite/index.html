@@ -9,5 +9,18 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script type="text/javascript">
+      window.afdcStationsOptions = {
+        "country":"all",
+        "localeCountry":"US",
+        "path":"/find/route",
+        "query":{
+          "fuel":["ELEC"],
+          "ev_levels":["all"]
+        }
+      };
+    </script>
+    <script async defer src="https://widgets.nrel.gov/afdc/station-locator/assets/embed.js"></script>
+    
   </body>
 </html>
