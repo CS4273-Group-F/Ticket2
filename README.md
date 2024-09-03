@@ -51,3 +51,10 @@ NOTE: I'm not sure why, but I can only run 1 app at a time, or the locator would
     - src/routes/+layout.svelte
     - src/app.css
 6. ```npm run dev```
+
+# .NET
+1. ```mkdir demo-dotnet-app``` and ```cd demo-dotnet-app```
+2. ```dotnet new web```
+3. edit /Program.cs
+4. create /wwwroot and /wwwroot/index.html, edit /wwwroot/index.html
+5. ```dotnet run```
