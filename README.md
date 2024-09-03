@@ -33,12 +33,12 @@ NOTE: I'm not sure why, but I can only run 1 app at a time, or the locator would
     - App.css
 6. ```npm run dev```
 
-# Svelt
-1. ```npm create svelte@latest demo-svelt-app```
+# Svelte
+1. ```npm create svelte@latest demo-svelte-app```
     - Select "Skeleton project"
     - Choose "No" for TypeScript
     - Don't select any additional options
-2. ```cd demo-svelt-app```
+2. ```cd demo-svelte-app```
 3. ```npm install```
 4. Delete
     - src/routes/about
@@ -51,3 +51,12 @@ NOTE: I'm not sure why, but I can only run 1 app at a time, or the locator would
     - src/routes/+layout.svelte
     - src/app.css
 6. ```npm run dev```
+
+# .NET
+1. install .NET SDK
+2. ```dotnet new web -n demo-dotnet-app```
+3. ```cd demo-dotnet-app```
+4. edit /Program.cs
+5. create /wwwroot and /wwwroot/index.html
+6. edit /wwwroot/index.html
+7. ```dotnet run```

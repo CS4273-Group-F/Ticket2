@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "ZDg7CoxdybKTq7ox62STF+gcODNS78TyraqUFaLU0oE=",
+  "Source": "demo-dotnet-app",
+  "BasePath": "_content/demo-dotnet-app",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "demo-dotnet-app/wwwroot",
+      "Source": "demo-dotnet-app",
+      "ContentRoot": "/Users/kyukyu/Desktop/School/24_Fall/CS_4273/Ticket2/demo-dotnet-app/wwwroot/",
+      "BasePath": "_content/demo-dotnet-app",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/kyukyu/Desktop/School/24_Fall/CS_4273/Ticket2/demo-dotnet-app/wwwroot/index.html",
+      "SourceId": "demo-dotnet-app",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kyukyu/Desktop/School/24_Fall/CS_4273/Ticket2/demo-dotnet-app/wwwroot/",
+      "BasePath": "_content/demo-dotnet-app",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    }
+  ]
+}
