@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "TJEOt1dkJ5s=",
   "success": true,
   "projectFilePath": "/Users/kyukyu/Desktop/School/24_Fall/CS_4273/Ticket2/demo-dotnet-app/demo-dotnet-app.csproj",
+=======
+  "dgSpecHash": "J+U4TMdIrtM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\danny\\OneDrive\\Desktop\\DotNet\\DotNet.csproj",
+>>>>>>> f9d2391eb2a834da189608c6a55a368232fcca93
   "expectedPackageFiles": [],
   "logs": []
 }

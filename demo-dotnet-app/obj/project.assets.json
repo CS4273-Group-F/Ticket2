@@ -8,11 +8,16 @@
     "net8.0": []
   },
   "packageFolders": {
+<<<<<<< HEAD
     "/Users/kyukyu/.nuget/packages/": {}
+=======
+    "C:\\Users\\danny\\.nuget\\packages\\": {}
+>>>>>>> f9d2391eb2a834da189608c6a55a368232fcca93
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "/Users/kyukyu/Desktop/School/24_Fall/CS_4273/Ticket2/demo-dotnet-app/demo-dotnet-app.csproj",
       "projectName": "demo-dotnet-app",
       "projectPath": "/Users/kyukyu/Desktop/School/24_Fall/CS_4273/Ticket2/demo-dotnet-app/demo-dotnet-app.csproj",
@@ -21,6 +26,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/kyukyu/.nuget/NuGet/NuGet.Config"
+=======
+      "projectUniqueName": "C:\\Users\\danny\\OneDrive\\Desktop\\DotNet\\DotNet.csproj",
+      "projectName": "DotNet",
+      "projectPath": "C:\\Users\\danny\\OneDrive\\Desktop\\DotNet\\DotNet.csproj",
+      "packagesPath": "C:\\Users\\danny\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\danny\\OneDrive\\Desktop\\DotNet\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\danny\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> f9d2391eb2a834da189608c6a55a368232fcca93
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -67,7 +82,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+>>>>>>> f9d2391eb2a834da189608c6a55a368232fcca93
       }
     }
   }
